@@ -72,14 +72,15 @@ padding:0 63% 100px 0;
 background:top right no-repeat url(img/mainimg.svg);
 }
 .main__title{
-padding-top:19%;
+padding-top:14%;
 margin-bottom:40px;
 font:bold 65px/86px'pt_serifbold', arial,helvetica,sans-serif;
 }
 .main__subtitel{
+padding-top:1%;
 width:70%;
 margin-bottom:40px;
-font:19px/22px Roboto,arial,helvetica,sans-serif,'pt_serifbold';
+font:20px/22px Roboto,arial,helvetica,sans-serif,'pt_serifbold';
 }
 .main__button{
 display: inline-block;
@@ -125,4 +126,33 @@ background:#0056EC
 left:8px;
 top: 56%;
 background: #C8DBFB;
+}
+@media (max-width:1920px){
+.menu {
+display: none;
+}
+.header{
+margin-bottom: 28px;
+}
+.main{
+padding: 74% 0 0;
+background-size:74%;
+background-position: top center;
+}
+.main__title{
+margin-bottom:44px;
+font-family:30px/39px arial,helvetica,sans-serif,'pt_serifbold';
+}
+.main__subtitel{
+margin-bottom:25px;
+font-family:19px/22px arial,helvetica,sans-serif,'pt_serifbold';
+}
+.main__button{
+font-family:14px/16px arial,helvetica,sans-serif,'pt_serifbold';
+}
+.main{
+text-align:center;
+padding:74% 0 0;
+background-size:74%;
+background-position:top center;
 }
